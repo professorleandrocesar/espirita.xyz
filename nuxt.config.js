@@ -22,14 +22,14 @@ export default {
       { name: 'theme-color', content: '#205461' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/img/' },
-      { rel: 'shortcut icon', type: 'image/x-icon', href: '/img/' },
-      { rel: 'apple-touch-icon', size: '180x180', href: '/img/' },
-      { rel: 'icon', type:'image/png', size: '32x32', href: '/img/' },
-      { rel: 'icon', type:'image/png', size: '16x16', href: '/img/' },
-      { rel: 'apple-touch-icon', size: '180x180', href: '/img/' },
-      { rel: 'manifest', href: '/img/' },
-      { rel: 'mask-icon', href: '/img/', color: '#205461' },
+      { rel: 'icon', type: 'image/x-icon', href: '/img/logo.svg' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/img/logo.svg' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/img/logo.png' },
+      { rel: 'icon', type:'image/png', size: '32x32', href: '/img/logo.png' },
+      { rel: 'icon', type:'image/png', size: '16x16', href: '/img/logo.png' },
+      { rel: 'apple-touch-icon', size: '180x180', href: '/img/logo.png' },
+      { rel: 'manifest', href: '/img/logo.png' },
+      { rel: 'mask-icon', href: '/img/logo.png', color: '#205461' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Philosopher&display=swap' }
     ],
     script: [

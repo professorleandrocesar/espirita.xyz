@@ -1,23 +1,7 @@
 <template>
 <div>    
-
-  <div class="main mainOne">
-    <nuxt-link to="pao-nosso">
-    
-    <i class="fa-solid fa-book"></i> Pão Nosso
-    </nuxt-link> 
-  
-  </div>
-
-  <div v-html='content'></div>
-  <div class="main mainTwo"> 
-    <nuxt-link to="/livro-dos-espiritos">
-    
-    <i class="fa-solid fa-book"></i> O Livro dos Espíritos
-    </nuxt-link>
-  </div>
-
-  <div v-html='contentTwo'></div>
+<NavTop/>
+<Nav/>
 
   <div class="main mainTree"> 
     <nuxt-link to="evangelho-segundo-o-espiritismo">
@@ -28,6 +12,7 @@
 
   <div v-html='contentTree'></div>
 
+<Footer/>
 </div>
 </template>
 <script>

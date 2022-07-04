@@ -1,29 +1,24 @@
 <template>
 <div>    
-
   <div class="main mainOne">
-    <nuxt-link to="pao-nosso">
-    
-    <i class="fa-solid fa-book"></i> Pão Nosso
-    </nuxt-link> 
-  
+    <a @click="personal" class='lineBtn' :class='{ lineBtnHover: aplicar }'>
+    <i class="fa-solid fa-book"></i> O Livro dos Espíritos
+    </a>   
   </div>
 
   <div v-html='content'></div>
   <div class="main mainTwo"> 
-    <nuxt-link to="/livro-dos-espiritos">
-    
-    <i class="fa-solid fa-book"></i> O Livro dos Espíritos
-    </nuxt-link>
+    <a @click="deep" class='lineBtnTwo' :class='{ lineBtnHoverTwo: aplicarTwo }'>
+    <i class="fas fa-bible"></i> O Evangelho Segundo o Espiritismo
+    </a>
   </div>
 
   <div v-html='contentTwo'></div>
 
   <div class="main mainTree"> 
-    <nuxt-link to="evangelho-segundo-o-espiritismo">
-    
-    <i class="fas fa-bible"></i> O Evangelho Segundo o Espiritismo
-    </nuxt-link>
+    <a @click="espirita" class='lineBtnTree' :class='{ lineBtnHoverTree: aplicarTree }'>
+    <i class="fa-solid fa-book"></i> Pão Nosso
+    </a>
   </div>
 
   <div v-html='contentTree'></div>
