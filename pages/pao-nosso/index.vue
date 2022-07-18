@@ -1,7 +1,7 @@
 <template>
 <div>    
-<NavTop/>
 <Nav/>
+<NavTop/>
   <div class="main mainOne">
     <nuxt-link to="pao-nosso">
     

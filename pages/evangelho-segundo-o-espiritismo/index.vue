@@ -1,7 +1,7 @@
 <template>
 <div>    
-<NavTop/>
 <Nav/>
+<NavTop/>
 
   <div class="main mainTree"> 
     <nuxt-link to="evangelho-segundo-o-espiritismo">

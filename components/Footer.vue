@@ -4,11 +4,8 @@
         <div class="footer-icons-copyright">
             <p class="ul-icons">
                  
-                <a href="https://api.whatsapp.com/send?phone=5521971305858" title="Conversar no WhatsApp" target="_blank">
-                    <i class="fab fa-whatsapp-square"></i>
-                </a>
-                <a href="https://github.com/professorleandrocesar" title="Meus Projetos online" target="_blank">
-                    <i class="fab fa-github-square"></i>
+                <a href="https://instagram.com/espirita.xyz" title="Instagram" target="_blank">
+                    <i class="fa-brands fa-instagram-square"></i>
                 </a>
                 <a href="mailto:contato@espirita.xyz" title="Me mande um e-mail c/ dúvidas, sugestões..." target="_blank">
                     <i class="fas fa-envelope"></i>

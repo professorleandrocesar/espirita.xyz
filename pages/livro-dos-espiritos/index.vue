@@ -1,7 +1,7 @@
 <template>
 <div>    
-<NavTop/>
 <Nav/>
+<NavTop/>
 
   <div class="main mainTwo"> 
     <nuxt-link to="/livro-dos-espiritos">
